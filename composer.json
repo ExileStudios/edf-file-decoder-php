@@ -1,0 +1,16 @@
+{
+    "name": "exilestudios/edf-file-decoder",
+    "description": "A script to parse and decode EDF files using eolib-php.",
+    "require": {
+        "exilestudios/eolib-php-dist": "^v1.0.0-rc.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "EDFFileDecoderPHP\\": "src/",
+            "Eolib\\": "vendor/exilestudios/eolib-php-dist/Eolib/"
+        },
+        "files": [
+            "vendor/exilestudios/eolib-php-dist/Eolib/Encrypt/EncryptionUtils.php"
+        ]
+    }
+}
